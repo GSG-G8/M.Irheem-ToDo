@@ -1,0 +1,23 @@
+{
+  "name": "todo_m.irheem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G8/M.Irheem-ToDo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G8/M.Irheem-ToDo/issues"
+  },
+  "homepage": "https://github.com/GSG-G8/M.Irheem-ToDo#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
