@@ -43,6 +43,11 @@ var todoFunctions = {
       // in the new todo array, all elements will remain unchanged except the one with id: idToMark
       // this element will have its done value toggled
       // hint: array.map
+      return todos.map(elem =>({
+        id: elem.id,
+        description : elem.description,
+        done : elem.id == idToMark ? !elem.done : elem.done
+      }))
     },
     sortTodos: function(todos, sortFunction) {
       // stretch goal! Do this last
