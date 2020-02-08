@@ -80,3 +80,37 @@ describe("Testing the add todo function", () => {
     });
 
 })
+
+
+
+describe("Testing the idMark function", () => {
+  test("Test if the function mark elements or not", () => {
+    var actual = todoFunctions.markTodo(todoArr, "0");
+    var expected = [
+      {
+        id: 0,
+        description: 'smash avocados',
+        done: false,
+      },
+      {
+        id: 1,
+        description: 'make coffee',
+        done: false,
+      },
+    ]
+    expect(actual).toEqual(expected);
+  });
+
+  test("Test the length of the input and the output", () => {
+    var actual = todoFunctions.markTodo(todoArr, "0");
+    var expected = 2
+    expect(actual.length).toBe(expected);
+  });
+
+  test("Should return type of output", () => {
+    var actual = todoFunctions.markTodo(todoArr, "0")
+    var expected = "object";
+      expect(typeof actual).toBe(expected);
+  });
+
+})
