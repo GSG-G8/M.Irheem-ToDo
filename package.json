@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GSG-G8/M.Irheem-ToDo/issues"
   },
-  "homepage": "https://github.com/GSG-G8/M.Irheem-ToDo#readme"
+  "homepage": "https://github.com/GSG-G8/M.Irheem-ToDo#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
 }
